@@ -1,0 +1,16 @@
+server:
+  port: 8010
+## 服务别名（服务注册到注册中心的名称）
+spring:
+  application:
+    name: client-member
+
+eureka:
+  client:
+    service-url:
+      ## 当前服务注册到eureka地址
+      defaultZone: http://localhost:8100/eureka/
+    ##  需要将服务注册到eureka
+    register-with-eureka: true
+    ##  需要检索服务
+    fetch-registry: true

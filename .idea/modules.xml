@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureak-client-member/eureak-client-member.iml" filepath="$PROJECT_DIR$/eureak-client-member/eureak-client-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-member-copy/eureka-client-member-copy.iml" filepath="$PROJECT_DIR$/eureka-client-member-copy/eureka-client-member-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-order/eureka-client-order.iml" filepath="$PROJECT_DIR$/eureka-client-order/eureka-client-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-copy/eureka-server-copy.iml" filepath="$PROJECT_DIR$/eureka-server-copy/eureka-server-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-learning.iml" filepath="$PROJECT_DIR$/.idea/springcloud-learning.iml" />
+    </modules>
+  </component>
+</project>

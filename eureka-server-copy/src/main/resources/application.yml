@@ -1,0 +1,19 @@
+server:
+  port: 9100
+
+spring:
+  application:
+    name:eureka-copy
+
+eureka:
+  instance:
+    ## 注册中心ip
+    hostname: eureka-server-copy
+  client:
+    service-url:
+      ## 注册中心地址
+      defaultZone: http://127.0.0.1:8100/eureka/
+    ##  因为自己是组册中心，是否将自己注册给自己的注册中心（集群的时候设置true）
+    register-with-eureka: true
+    ##  因为自己是组册中心，不需要检索服务信息
+    fetch-registry: true
